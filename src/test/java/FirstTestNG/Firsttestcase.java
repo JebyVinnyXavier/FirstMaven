@@ -33,7 +33,7 @@ public class Firsttestcase {
        }
        
 
-   @Test(priority=2,enabled=false)
+   @Test(priority=2,enabled=true)
    
    public void register() throws InterruptedException {
 	   WebDriverManager.chromedriver().setup();
